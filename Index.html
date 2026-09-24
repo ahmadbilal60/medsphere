@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedSphere — طبي معلومات</title>
+<meta name="theme-color" content="#0a7d6b">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon-192.png">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>MedSphere</h1>
+  <button id="langBtn" class="lang">دری</button>
+</header>
+
+<div class="searchbox">
+  <input id="search" type="search" placeholder="لټون...">
+</div>
+
+<nav class="cats" id="cats"></nav>
+
+<main id="list" class="list"></main>
+
+<div id="reader" class="reader hidden">
+  <div class="reader-head">
+    <button id="backBtn">← بیرته</button>
+  </div>
+  <h2 id="rTitle"></h2>
+  <div id="rBody" class="reader-body"></div>
+  <p class="disclaimer"></p>
+</div>
+
+<footer>
+  <p>MedSphere © 2026 — مفت او د ټولو لپاره</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
